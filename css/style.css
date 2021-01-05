@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-content{
+    height: 500px;
+    margin-bottom: 150px;
+}
+#mainmenu{
+    background-color: blanchedalmond;
+}
+.menu{
+    margin-left: 60%;
+    padding: 2% 0px;
+}
+.menu-item{
+    display: inline-block;
+    padding-right: 10%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.menu-link{
+    text-decoration: none;
+    color: #000;
+}
+.menu-link:hover{
+    color: #8c1336;
+}
+#introduction{
+    background:#eee ;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Redressed', cursive;
+}
+.highlighted-text{
+    font-family: 'Pirata One', cursive;
+    color: #8c1336;
+}
+.half-width{
+    width: 43%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width .content{
+ padding-top: 5%;
+}
+.half-width img{
+    width: 70%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(30deg,#8c1336, #15DDD2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.link-button:hover{
+    background-image: linear-gradient(30deg, #15DDD2,#8c1336);
+    transition: all 0.5s;
+}
+.one-third{
+    float: left;
+    width: 28%;
+    margin-left: 2%;
+    padding: 1.5%;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10%;
+    background: #fff;
+}
+#project{
+    background:#eee ;
+    height: 800px;
+    padding-top: 5%;
+}
+#project h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.one-third img{
+    width: 100%;
+}
+.one-third h2{
+    font-size: 2rem;
+    padding: 3% 0px;
+}
+.one-third p{
+    font-size: 1.5rem;
+}
+
+#inquiry-content{
+    background-image: url(../images/shapes/Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 0px 10%;
+    border-radius: 30px;
+}
+#inquiry-content h1{
+    color: #fff;
+    font-size: 4rem;
+    padding-top: 8%;
+    padding-left: 2%;
+}
+#inquiry-content a{
+    float: right;
+    background-image: linear-gradient(45deg,orange, yellow);
+    font-size: 2rem;
+    color: #000;
+    margin-right: 2%;
+    margin-top: -3%;
+}
+#footer h3,h2{
+    text-align: center;
+}
+#footer h3{
+    font-size: 2.5rem;
+    color: lightslategray;
+}
+#footer h2{
+    font-size: 3.5rem;
+}
+#footer h2 a{
+    text-decoration: none;
+    color: #000;
+}
+.footer-one-third{
+    float: left;
+}
+.footer-one-third img{
+    width: 50%;
+}
+.icons{
+    padding-top: 2%;
+    margin-left: 42%;
+}
+#skill{
+    margin-left: 10%;
+}
+#skill-1{
+    background-image: linear-gradient(45deg,orange, yellow);
+    height: 30px;
+    width: 60%;
+}
+
+#skill-2{
+    background-image: linear-gradient(45deg,orange, yellow);
+    height: 30px;
+    width: 45%;
+}
+
+#skill-3{
+    background-image: linear-gradient(45deg,orange, yellow);
+    height: 30px;
+    width: 85%;
+}
+
+#skill-4{
+    background-image: linear-gradient(45deg,orange, yellow);
+    height: 30px;
+    width: 70%;
+}
+.percentage{
+    font-size: 25px;
+    padding-left: 2%;
+}
+#skill h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.skill-name{
+    text-align: left;
+    font-size: 30px;
+}
+
+.skill-item{
+    margin-bottom: 2%;
+}
